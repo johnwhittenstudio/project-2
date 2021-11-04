@@ -12,68 +12,60 @@
 </head>
 <body>
   <div id="grad1">
-    <form id="main">  
-  
     <div class="container">
       <h1>Want to learn a programming language?</h1>
-      <p>Take the following survey to find out which language is best for you:</p>
-   
-      <div>
-      <div class="form-group">
-        <h3><label for="person1">What is your name?</label></h3>
-        <input id="person1" class="form-control" type="text">
-      </div>
+      <h5>Take the following survey to find out which programming language is best for you:</h5>
 
-      <div class="form-group">
-        <h3><label for="born">Date of birth:</label></h3>
-        <input id="born" class="form-control" type="date">
-      </div>
+    <form id="main">        
+      <div class="card">
+        <div id="grad2">
+          <div class="form-group">
+            <h3><label for="name">What is your name?</label></h3>
+              <input id="name" type="text">
+            <h3><label for="age">What is your age?</label></h3>
+              <input id="age" type="text">
+            <h3><label for="animal">Which is animal is best?</label></h3>
+            <select id="animal">
+              <option value="cat">Cat</option>
+              <option value="crow">Crow</option>
+            </select>
+          </div>
 
-      <h3>Which animal is best?</h3>
-        <select class="form-control" id="animal">
-          <option value="1">Cat</option>
-          <option value="2">Chameleon</option>
-          <option value="3">Corgi</option>
-          <option value="4">Crow</option>
-        </select>
+          <h3><label for="activity">Which activity brings you the most comfort?</label></h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comfort" value="meal" checked>
+              Eating a home-cooked meal
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comfort" value="sunshine">Laying in the warm sunshine
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comfort" value="movie">Watching a favorite movie
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comfort" value="laughing">Laughing with a loved one
+            </label>
+          </div>
 
-        <h3>Which activity brings you the most comfort?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="comfort" value="meal" checked>
-            Eating a home-cooked meal
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="comfort" value="sunshine">
-            Laying in the warm sunshine
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="comfort" value="movie">
-            Watching a favorite movie
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="comfort" value="laughing">
-            Laughing with a loved one
-          </label>
-        </div>
-
-        <div class="form-group">
           <h3><label for="color">What is your favorite color?</label></h3>
           <input id="color" class="form-control" type="color">
-        </div>
-        
-        <button type="submit" class="btn-info"><h3><strong>Show me my language!</strong></h3></button>
-      
-      </form>
-    </div>
 
-  </div>
+        <button type="submit" class="btn-info"><h3>Show me my language!</h3></button>
+      
+      </div>
+    </div>
+    </form>
+
+</div>
+</div>
+</div>
 
 
 <!-- Language Options Below. -->
