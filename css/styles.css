@@ -28,3 +28,6 @@ h5 {
   padding-left: 25px;
   padding-right: 25px;
 }
+#python, #csharp, #rust {
+  display: none;
+}
