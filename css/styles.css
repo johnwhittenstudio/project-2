@@ -2,18 +2,22 @@
   max-width: 65%;
   text-align: center;
 }
-
 #grad1 {
   background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, rgb(0, 217, 255), rgb(255, 123, 0));
 }
-
 h1 {
   margin-top: 25px;
   padding-top: 20px;
 }
-
 h3 {
-  margin-top: 25px;
   padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btn-info {
+  margin-top: 20px;
+  margin-bottom: 15%;
+}
+#python, #csharp, #rust {
+  display: none;
 }
