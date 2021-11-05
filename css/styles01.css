@@ -28,3 +28,23 @@ h5 {
   padding-left: 25px;
   padding-right: 25px;
 }
+.card {
+  margin: 25px;
+}
+
+.form-control {
+  max-width: 40%%;
+}
+
+#python {
+  display: none;
+}
+
+#csharp {
+  display: none;
+}
+
+#rust {
+  display: none;
+}
+
