@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Language</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div id="grad1">
+    <div class="container">
+      <h1>Want to learn a programming language?</h1>
+      <h5>Take the following survey to find out which programming language is best for you:</h5>
+
+    <form id="main">    
+      <div id="grad2">    
+      <div class="card">
+
+          <div class="form-group">
+            <h3><label for="name">What is your name?</label></h3>
+              <input id="name" type="text">
+            <h3><label for="age">What is your age?</label></h3>
+              <input id="age" type="text">
+            <h3><label for="animal">Which is animal is best?</label></h3>
+            <select id="animal">
+              <option value="10">Cat</option>
+              <option value="20">Crow</option>
+              <option value="30">Corgi</option>
+            </select>
+          </div>
+
+          <h3><label for="activity">Which activity brings you the most comfort?</label></h3>
+          <div class="radio">
+            <label>
+              <input id="comfort" type="radio" name="comfort" value="40" checked>
+              Eating a home-cooked meal
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input id="comfort" type="radio" name="comfort" value="50">Laying in the warm sunshine
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input id="comfort" type="radio" name="comfort" value="60">Watching a favorite movie
+            </label>
+          </div>
+
+          <h3><label for="color">What is your favorite color?</label></h3>
+          <input id="color" class="form-control" type="color">
+
+        <button type="submit" class="btn-info"><h3>Submit!</h3></button>
+      
+      </div>
+    </div>
+    </form>
+
+</div>
+</div>
+</div>
+
+
+<!-- Language Options Below. -->
+
+<div id="grad1">
+<div class="container">
+  <div id="grad2">
+    <div class="card">
+
+        <div id="python">
+            <h1><strong>Congratulations, <span class="name"></span>! You got Python!</strong></h1>
+            <img src="img/python.png" alt="image of python logo, a graphic illustration of a blue snake and a yellow snake that combine to make a cross.">
+            <p>Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.<a href="https://en.wikipedia.org/wiki/Python_(programming_language)"> wikipedia</a></p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card">
+      <div id="grad2">
+        <div id="csharp">
+            <h1><strong>Congratulations, <span class="name"></span>! You got C#!</strong></h1>
+            <img src="img/csharp.png" alt="image of c sharp logo, a two-tone purple hexagon with a capital letter C and a pound sign inside.">
+            <p>C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.<a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"> wikipedia</a></p>
+        </div>
+      </div>
+    </div>    
+</div>
+
+<div class="container">
+    <div class="card">
+      <div id="grad2">
+        <div id="rust">
+            <h1><strong>Congratulations, <span class="name"></span>! You got Rust!</strong></h1>
+            <img src="img/rust.png" alt="image of rust logo, a black silhouette gear with a captial letter r inside.">
+            <p>Rust is a multi-paradigm, high-level, general-purpose programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references.<a href="https://en.wikipedia.org/wiki/Rust_(programming_language)"> wikipedia</a></p>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
