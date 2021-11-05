@@ -33,7 +33,8 @@ h5 {
 }
 
 .form-control {
-  max-width: 40%;
+  justify-content: center;
+  max-width: 50%;
 }
 
 #python {
