@@ -1,7 +1,7 @@
 # Branching Form
 ## by _**John Whitten**_
  
-#### _A form with 5 categories that branches to 3 different options._
+#### _A form webpage with 5 categories that branch to 3 different options._
  
 ## Technologies Used
  
@@ -12,19 +12,16 @@
  
 ## Description
  
-_{This is a form webpage, dedicated to introducing myself, communicating some of my work experience and education, and showcasing some recent projects.}_
+_{This is a form webpage, wherein the user can input information into five different categories and return 3 different results.}_
  
 ## Directions
  
-Download this portfolio from GitHub at [https://github.com/johnwhittenstudio/portfolio](https://github.com/johnwhittenstudio/portfolio)
+Download this portfolio from GitHub at [https://github.com/johnwhittenstudio/project-2](https://github.com/johnwhittenstudio/project-2)
  
 Contents include the following html page:
 * index.html
  
 The html web form does not need a server to run and can be completed and interacted with by clicking on the "click here" button.
- 
-In order to view this html web form online, click on the following link:
-[https://johnwhittenstudio.github.io/portfolio/index.html](https://johnwhittenstudio.github.io/portfolio/index.html)
  
 This html web form works on Chrome, Firefox, and Safari.
  
@@ -43,6 +40,8 @@ This html web form site contains 3 branches:
 3. "Rust"
  
 Each branch gives the user an introduction to that specific programming language and contains a hyperlink to the wikipedi page on that language. 
+
+Text entered into the "What is your name?" category will appear at the top of each branch returned. 
 
 Clicking on the "click here" button at the bottom of the programming language branch will redirect the user back to the form, where they can enter different selections.
  
