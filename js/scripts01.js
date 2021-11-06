@@ -6,14 +6,14 @@ $(document).ready(function() {
 
 
   if (number1 === 1) {
-    $("#python").toggle();
+    $("#python").fadeToggle();
     $(".name").text(name);
   } else if (number1 === 2) {
     $(".name").text(name);
-    $("#csharp").toggle();
+    $("#csharp").fadeToggle();
   } else if (number1 === 3) {
     $(".name").text(name);
-    $("#rust").toggle()
+    $("#rust").fadeToggle()
   }
 
   $("#main").toggle();
