@@ -1,6 +1,7 @@
 # Branching Form
 ## by _**John Whitten**_
- 
+### _November 7, 2021_ 
+
 #### _A form webpage with 5 categories that branch to 3 different options._
  
 ## Technologies Used
@@ -8,7 +9,7 @@
 * _HTML_
 * _CSS_
 * _Javascript_
-* _jQuery_
+* _jQuery-3.6.0_
  
 ## Description
  
@@ -16,7 +17,11 @@ _{This is a form webpage, wherein the user can input information into five diffe
  
 ## Directions
  
-Download this portfolio from GitHub at [https://github.com/johnwhittenstudio/project-2](https://github.com/johnwhittenstudio/project-2)
+Download this portfolio from GitHub and open in terminal.
+
+...
+https://github.com/johnwhittenstudio/project-2
+...
  
 Contents include the following html page:
 * index.html
