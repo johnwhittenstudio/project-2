@@ -3,11 +3,11 @@
   text-align: center;
 }
 #grad1 {
-  background-color: red; /* For browsers that do not support gradients */
+  background-color: red; 
   background-image: linear-gradient(to bottom right, rgb(0, 217, 255), rgb(255, 123, 0));
 }
 #grad2 {
-  background-color: red; /* For browsers that do not support gradients */
+  background-color: red; 
   background-image: linear-gradient(to bottom right, rgb(255, 123, 0), rgb(0, 217, 255));
 }
 h1 {

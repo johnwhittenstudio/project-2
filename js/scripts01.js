@@ -5,7 +5,6 @@ $(document).ready(function() {
     const number2 = parseInt($("input:radio[name=comfort]:checked").val());
     let score = number1 + number2;
     console.log(number2);
-
   if (score <= 9) {
     $("#python").fadeToggle();
     $(".name").text(name);
@@ -16,14 +15,9 @@ $(document).ready(function() {
     $("#rust").fadeToggle()
     $(".name").text(name);
   }
-
   $("#main").toggle();
-
   event.preventDefault();
-
   $("form#main").submit(function(event) {
-
-
   });
 });
 });
