@@ -19,9 +19,7 @@ _{This is a form webpage, wherein the user can input information into five diffe
  
 Download this portfolio from GitHub and open in terminal.
 
-...
-https://github.com/johnwhittenstudio/project-2
-...
+...https://github.com/johnwhittenstudio/project-2...
  
 Contents include the following html page:
 * index.html
@@ -37,7 +35,7 @@ There are 5 categories in this form:
 4. "Which activity brings you the most comfort?"
 5. "What is your favorite color?"
 
-After completing the form, the user needs to click on the "click here" button to be taken to the programming language branch. Depending on which selection the user makes in category #3, they will be taken to a different branch.
+After completing the form, the user needs to click on the "click here" button to be taken to the programming language branch. Depending on which selection the user makes in category #3 and category #4, they will be taken to one of 3 different branches.
 
 This html web form site contains 3 branches:
 1. "Python"
