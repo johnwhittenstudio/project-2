@@ -1,19 +1,20 @@
 $(document).ready(function() {
   $("form#main").submit(function(event) {
     const name = $("input#name").val();
-    const number1 = parseInt($("select#animal").val());
-    const number2 = parseInt($("select#comfort").val());
+    const number1 = parseInt($("#animal").val());
+    const number2 = parseInt($("input:radio[name=comfort]:checked").val());
+    let score = number1 + number2;
+    console.log(number2);
 
-
-  if (number1 === 1) {
+  if (score <= 9) {
     $("#python").fadeToggle();
     $(".name").text(name);
-  } else if (number1 === 2) {
-    $(".name").text(name);
+  } else if (score >= 10 && score < 49) {
     $("#csharp").fadeToggle();
-  } else if (number1 === 3) {
     $(".name").text(name);
+  } else if (score >= 50) {
     $("#rust").fadeToggle()
+    $(".name").text(name);
   }
 
   $("#main").toggle();
@@ -25,4 +26,4 @@ $(document).ready(function() {
 
   });
 });
-}); 
+});
